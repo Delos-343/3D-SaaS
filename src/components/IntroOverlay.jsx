@@ -16,7 +16,7 @@ const Section = (props) => {
       }}
     >
       <div className="w-1/2 flex items-center justify-center">
-        <div className="max-w-sm w-full">
+        <div className="max-w-lg w-full">
           <div className="bg-transparent rounded-lg px-8 py-12">
             {props.children}
           </div>
@@ -42,8 +42,8 @@ export const IntroOverlay = () => {
     <Scroll html>
       <div className="w-screen text-gray-800">
         <Section opacity={opacityFirstSection}>
-          <h1 className="font-semibold font-['Mars'] pb-5">
-            Halo, <br />
+          <h1 className="font-semibold font-['Mars'] pb-5 text-2xl">
+            <span className="text-red-600 font-['Mars']">Halo</span>, <br />
             we&apos;re Team FEDEX
           </h1>
           <p className="text-gray-500"> Welcome to Our Final Project </p>

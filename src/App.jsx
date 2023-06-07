@@ -1,14 +1,15 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Home, Intro } from './pages'
+import { Intro } from './pages'
+import Home from './pages/Home'
 
 function App() {
   return (
     <>
       <Routes>
         <Route exact path='/' element={ <Intro /> } />
-        <Route exact path='/home' element={ <Home /> } />
+        <Route exact path='/Home' element={ <Home /> } />
       </Routes>
     </>
   )

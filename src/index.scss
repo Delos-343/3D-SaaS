@@ -1,10 +1,178 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 
 #root {
   width: 100%;
   height: 100vh;
   background-color: #F1F1F1;
   background-image: linear-gradient(0deg, #F1F1F1 0%, #87CEEB 100%);
+}
+
+
+:root {
+    --black: rgba(0,0,0,1);
+    --gray: rgba(112,112,112,1);
+    --white: rgba(255,255,255,1);
+    --font-size-s: 15px;
+    --font-size-m: 21px;
+    --font-size-l: 26px;
+    --font-size-xl: 40px;
+    --font-size-xxl: 42px;
+    --font-family-poppins: "Poppins";
+}
+
+.poppins-normal-black-26px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-black-21px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold-black-21px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-bold-black-26px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-bold-white-40px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #E0E5E8;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.myName a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 0;
+    position: relative;
+}
+
+.myName a::after {
+    content: '';
+    background: #717171;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.myName a:hover::after {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 110px;
+    width: 100%;
+    background: #E0E5E8;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+.navHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myImage {
+    border-radius: 50px 50px 50px 50px;
+    height: 110px;
+    object-fit: cover;
+    width: 110px;
+}
+
+.navLinks {
+    padding: 28px 0;
+    padding-left: 550px;
+}
+
+.navLinks li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: var(--font-size-m);
+    font-weight: 700;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 0;
+    position: relative;
+}
+
+.navLinks li a::after {
+    content: '';
+    background: #717171;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.navLinks li a:hover::after {
+    width: 100%;
+}
+
+.headerImage {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
 }
