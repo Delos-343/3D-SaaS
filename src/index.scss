@@ -176,3 +176,26 @@ a {
     padding: 1rem 1rem;
     vertical-align: middle;
 }
+
+.navFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainFooter {
+  position: absolute;
+  left: 52%;
+  top: 68%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container1 {
+  padding-left: 50px;
+  padding-right: 60px;
+}

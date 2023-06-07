@@ -1,10 +1,11 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 const Header = () => {
   return (
     <>
         <div className="bg-transparent">
-            <nav className="navHeader">
+            <nav className="navHeader pl-24 pr-24 pt-3">
                 <div className="headerProfile">
                     <img src="./src/assets/viteTest.svg" className="myImage headerImage" alt="myImage" />
                     <div className="headerImage">
@@ -15,11 +16,8 @@ const Header = () => {
                 <ul className="navLinks">
                     <li><a href="./">Home</a></li>
                     <li><a href="./profile">Profile</a></li>
-                    <li><a href="./profile">Contact</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a></li>
                 </ul>
-                <button className="hamburger">
-                    <div className="bar"></div>
-                </button>
             </nav>    
         </div>
     </>
