@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="headerProfile">
                     <img src="./src/assets/viteTest.svg" className="myImage headerImage" alt="myImage" />
                     <div className="headerImage">
-                        <h1 className="poppins-bold-black-21px">Team Fedex</h1>
+                        <h1 className="font-['Mars'] text-2xl">Team Fedex</h1>
                         <h2 className="myName poppins-normal-black-21px"><a href="./profile">About Us</a></h2>
                     </div>
                 </div>
