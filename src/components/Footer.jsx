@@ -76,7 +76,7 @@ function Footer() {
     2023 Computer Graphics :
     <a
       className="text-neutral-800 dark:text-neutral-400"
-      href="https://tailwind-elements.com/"
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       > FedEx Team </a>
   </div>
 </footer>
