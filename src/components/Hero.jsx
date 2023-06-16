@@ -19,7 +19,7 @@ const Hero = () => {
             IF <span className='text-[#915EFF]'> GRAFKOM </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          To: Bu Anni
+          Teknik Informatika ITS
           </p>
         </div>
       </div>
