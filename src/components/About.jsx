@@ -49,7 +49,7 @@ const About = () => {
       >
         Solving real-world problems, from anywhere on Earth.
         <br /><br />
-        We have built this website &mdash; together as a team &mdash; with a specific chosen tech stack. from UI/UX design prototyping to full-time development.
+        We have built this website &mdash; together as a team &mdash; with a specific, chosen tech stack for UI/UX design prototyping to full-time development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
