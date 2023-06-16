@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Solving real-world problems, from anywhere on Earth.
-        <br className='hidden sm:block sm:py-5' />
+        <br /><br />
         We have built this website &mdash; together as a team &mdash; with a specific chosen tech stack. from UI/UX design prototyping to full-time development.
       </motion.p>
 

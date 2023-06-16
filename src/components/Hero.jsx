@@ -15,10 +15,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            IF <span className='text-[#915EFF]'> GRAFKOM </span>
+          <h1 className={`${styles.heroHeadText} text-white-100 font-['Mars']`}>
+            IF <span className="text-[#915EFF] font-['Mars']"> GRAFKOM </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-gray-200`}>
           Teknik Informatika ITS
           </p>
         </div>
