@@ -4,7 +4,6 @@ import React from 'react'
 import { OrbitControls, ScrollControls } from '@react-three/drei'
 import { Office } from './canvas/Office'
 import { IntroOverlay } from './IntroOverlay'
-// import { SaulGoodman } from './SaulGoodman'
 
 const IntroExperience = () => {
   return (
