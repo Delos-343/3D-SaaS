@@ -2,7 +2,7 @@ How to run the program on your device
 
 • install node.js with the following link: <br>
   https://nodejs.org/en/download <br>
-  if possible use the 64-bit windows installer
+  (If possible use the 64-bit Windows installer)
   
 • run `npm install yarn --global`
 
