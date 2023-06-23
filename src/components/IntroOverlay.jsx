@@ -93,7 +93,7 @@ export const IntroOverlay = () => {
                 <p className="hover:animate-pulse py-3 px-4 bg-blue-600 rounded-full text-4xl text-white font-bold">
                     ⇀
                 </p>
-            </a>
+            </Link>
         </Section>
       </div>
     </Scroll>
