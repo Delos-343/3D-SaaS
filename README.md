@@ -8,8 +8,6 @@ How to run the program on your device
   
 • run `npm install yarn --global`
 
-• go to the project directory 
-
 • run `yarn add vite`
 
 • to run the program: <br>
