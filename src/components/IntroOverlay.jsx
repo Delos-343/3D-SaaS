@@ -88,7 +88,7 @@ export const IntroOverlay = () => {
           <p className="text-gray-500 font-light">
             Start your journey here and now!
           </p>
-            <a href="/home" className="flex mt-6 justify-start items-center align-middle">
+            <a href="../pages/Home" className="flex mt-6 justify-start items-center align-middle">
                 <p className="hover:animate-pulse py-3 px-4 bg-blue-600 rounded-full text-4xl text-white font-bold">
                     ⇀
                 </p>
