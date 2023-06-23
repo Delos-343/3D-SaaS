@@ -4,7 +4,7 @@ import React from 'react'
 import { Scroll, useScroll } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
 import { useState } from "react"
-import { Link } from "react-rouer-dom"
+import { Link } from "react-router-dom"
 
 const Section = (props) => {
   return (
