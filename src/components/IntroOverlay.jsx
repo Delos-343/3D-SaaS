@@ -89,7 +89,7 @@ export const IntroOverlay = () => {
           <p className="text-gray-500 font-light">
             Start your journey here and now!
           </p>
-            <Link to="/home" className="flex mt-6 justify-start items-center align-middle">>
+            <Link to="/home">
                 ⇀
             </Link>
         </Section>
