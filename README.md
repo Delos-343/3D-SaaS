@@ -4,7 +4,7 @@ How to run the program on your device
   https://nodejs.org/en/download <br>
   (If possible use the 64-bit Windows installer)
 
-• open the terminal
+• open the terminal inside the 3D-SaaS folder
   
 • run `npm install yarn --global`
 
