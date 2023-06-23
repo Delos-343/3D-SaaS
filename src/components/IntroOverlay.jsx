@@ -4,6 +4,7 @@ import React from 'react'
 import { Scroll, useScroll } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
 import { useState } from "react"
+import { Link } from "react-rouer-dom"
 
 const Section = (props) => {
   return (
@@ -88,7 +89,7 @@ export const IntroOverlay = () => {
           <p className="text-gray-500 font-light">
             Start your journey here and now!
           </p>
-            <a href="../pages/Home" className="flex mt-6 justify-start items-center align-middle">
+            <Link to={'/home'} className="flex mt-6 justify-start items-center align-middle">
                 <p className="hover:animate-pulse py-3 px-4 bg-blue-600 rounded-full text-4xl text-white font-bold">
                     ⇀
                 </p>
